@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	 <link rel="stylesheet" href="css/font-awesome.min.css">		
+<title>Sign Up</title>
+	<style>
+		body
+		{
+			justify-content: center;
+			padding: 10px;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		}
+	.cont
+		{
+			height: 330px;
+    		width: 700px;
+    		padding: 68px 30px;
+    		background-color: #F8F3ED;
+    		border-radius: 26px;
+		}
+		.cont1
+		{
+			height: 330px;
+    		width: 350px;
+			float: left;
+		}
+		.account
+		{
+			text-align: center;
+		}
+		.account a
+		{
+			font-size: 15px;
+			color: brown;
+			
+		}
+		.cont2
+		{
+			height: 330px;
+    		width: 350px;
+			float: right;
+		}
+		.cont2 img
+		{
+			padding-top: 27px;
+		}
+	    .cont .title
+		{
+			height: 21px;
+			font-size: 25px;
+			font-weight: 500;
+			padding-left: 31px;
+			color: brown;
+		}
+	    .content form .user_detail
+		{
+			margin: 30px 0 23px 0;
+            padding-left: 25px;
+		}
+		.inputbox
+		{
+			margin-bottom: 20px;
+		}
+		.inputbox input
+		{
+			height: 25px;
+/*
+			border-radius: 16px;
+			outline: none;
+*/
+			background-color: #F8F3ED;
+			border-bottom: 1px solid brown;
+			border-left:  #F8F3ED;
+			border-right:  #F8F3ED;
+			border-top:  #F8F3ED;
+		}
+		.sbmt
+		{
+			margin-bottom: 20px;
+		}  
+		.tacbox
+		{
+			margin-bottom: 20px;
+		}
+		label
+		{
+			font-size: 14px;
+			color: brown;
+		}
+		label a
+		{
+			font-size: 14px;
+			color: brown;
+			text-decoration: none;
+		}
+		.sbmt button
+		{
+			height: 33px;
+			width: 245px;
+			border-radius: 16px;
+			border: 1px solid brown;
+			background-color: brown;
+			color: bisque;
+		}
+		.inputbox a
+		{
+			font-size: 15px;
+			color: brown;
+			padding-left: 126px;
+			text-decoration: none;
+		}
+		
+		@media screen and (max-width:480px)
+        {
+				body
+			{
+				justify-content: center;
+/*				padding: 10px;*/
+			}
+		.cont
+			{
+				height: 335px;
+				width: 480px;
+				padding: 68px 30px;
+				background-color: #F8F3ED;
+				border-radius: 26px;
+			}
+			.cont1
+			{
+				height: 340px;
+				width: 250px;
+				float:left;
+				margin-left: -40px;
+			}
+			.cont1 img
+			{
+				width: 210px;
+				height: 154px;	
+			}
+			.account
+			{
+				text-align: center;
+			}
+			.account a
+			{
+				font-size: 15px;
+				color: brown;
+				padding-left: -34px;
+			}
+			.cont2
+			{
+				height: 200px;
+				width: 285px;
+				float: right;
+				margin-left: -80px;
+			}
+		 .cont .title
+			{
+				height: 21px;
+				font-size: 22px;
+				font-weight: 500;
+				padding-left: 31px;
+				color: brown;
+			}
+			.cont2 img
+			{
+				padding-top:55px;
+				height:177px;
+				width:240px;
+			}
+		 .content form .user_detail
+			{
+				margin: 30px 0 23px 0;
+				padding-left: 25px;
+			}
+			.inputbox
+			{
+				margin-bottom: 20px;
+				margin-left: 6px;
+			}
+			.inputbox input
+			{
+				height: 25px;
+	/*			border-radius: 16px;*/
+	/*			outline: none;*/
+				background-color: #F8F3ED;
+				border-bottom: 1px solid brown;
+				border-left:  #F8F3ED;
+				border-right:  #F8F3ED;
+				border-top:  #F8F3ED;
+			}
+			.sbmt
+			{
+				margin-bottom: 20px;
+			}
+			.sbmt button
+			{
+				height: 33px;
+				width: 218px;
+				border-radius: 16px;
+				border: 1px solid brown;
+				background-color: brown;
+				color: bisque;
+			}
+			.inputbox a
+			{
+				font-size: 15px;
+				color: brown;
+				padding-left: 98px;
+				text-decoration: none;
+				margin-top: -50px;
+			}
+		
+
+}
+
+	</style>
+</head>
+
+<body>
+	<div class="cont">
+		<div class="cont1">
+			<div class="title">Sign up</div>
+		<div class="content">
+	<form>
+		<div class="user_detail">
+<!--			<label for="username">UserName</label>-->
+			<div class="inputbox">
+                <input name="username" type="text" id="username" placeholder="Username" size="30px" autocomplete="off" maxlength="30" required>
+			</div>
+			<div class="inputbox">
+                <input name="email" type="text" id="email" placeholder="Email" size="30px" autocomplete="off" maxlength="30" required>
+			</div>
+			<div class="inputbox">
+                <input name="password" type="password" id="password" placeholder="password" size="30px" maxlength="30" required>
+			</div>
+			<div class="inputbox">
+                <input name="rp" type="password" id="rp" placeholder="Repeat Password" size="30px" maxlength="30" required>
+			</div>
+			<div class="tacbox">
+			   <input type="checkbox" id="checkbox">
+				<label>I agree all statements in<a href="#"> Terms of serive</a></label>
+			</div>
+			<div class="sbmt">
+			<button type="submit">Sign up</button>
+<!--			<input name="Sign in" type="submit" size="20" maxlength="30">-->
+			</div>
+		</div>
+	</form>
+	    </div>
+		
+		</div>
+		<div class="cont2">
+			<img src="images/signup_img1.png" width="340px" height="250px">
+			<div class="account">
+			<a href="signin.html">I am already member</a>
+			</div>
+	    </div>
+	</div>
+</body>
+	
+</html>

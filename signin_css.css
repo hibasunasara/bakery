@@ -1,0 +1,181 @@
+body
+		{
+			justify-content: center;
+			padding: 10px;
+		}
+	.cont
+		{
+			height: 200px;
+    		width: 600px;
+    		padding: 68px 30px;
+    		background-color: #F8F3ED;
+    		border-radius: 26px;
+		}
+		.cont1
+		{
+			height: 200px;
+    		width: 300px;
+			float: left;
+		}
+		.account
+		{
+			text-align: center;
+		}
+		.account a
+		{
+			font-size: 15px;
+			color: brown;
+		}
+		.cont2
+		{
+			height: 200px;
+    		width: 300px;
+			float: right;
+		}
+	 .cont .title
+		{
+			height: 21px;
+			font-size: 22px;
+			font-weight: 500;
+			padding-left: 31px;
+			color: brown;
+		}
+	 .content form .user_detail
+		{
+			margin: 30px 0 23px 0;
+            padding-left: 25px;
+		}
+		.inputbox
+		{
+			margin-bottom: 20px;
+		}
+		.inputbox input
+		{
+			height: 25px;
+/*			border-radius: 16px;*/
+/*			outline: none;*/
+			background-color: #F8F3ED;
+			border-bottom: 1px solid brown;
+			border-left:  #F8F3ED;
+			border-right:  #F8F3ED;
+			border-top:  #F8F3ED;
+		}
+		.sbmt
+		{
+			margin-bottom: 20px;
+		}
+		.sbmt button
+		{
+			height: 33px;
+			width: 245px;
+			border-radius: 16px;
+			border: 1px solid brown;
+			background-color: brown;
+			color: bisque;
+		}
+		.inputbox a
+		{
+			font-size: 15px;
+			color: brown;
+			padding-left: 126px;
+			text-decoration: none;
+		}
+		
+		
+		@media screen and (max-width:480px)
+        {
+				body
+			{
+				justify-content: center;
+/*				padding: 10px;*/
+			}
+		.cont
+			{
+				height: 215px;
+				width: 480px;
+				padding: 68px 30px;
+				background-color: #F8F3ED;
+				border-radius: 26px;
+			}
+			.cont1
+			{
+				height: 200px;
+				width: 180px;
+				float:left;
+				margin-left: -40px;
+			}
+			.cont1 img
+			{
+				width: 210px;
+				height: 154px;	
+			}
+			.account
+			{
+				text-align: center;
+			}
+			.account a
+			{
+				font-size: 15px;
+				color: brown;
+				padding-left: 35px;
+			}
+			.cont2
+			{
+				height: 200px;
+				width: 334px;
+				float: right;
+				margin-left: -80px;
+			}
+		 .cont .title
+			{
+				height: 21px;
+				font-size: 22px;
+				font-weight: 500;
+				padding-left: 31px;
+				color: brown;
+			}
+		 .content form .user_detail
+			{
+				margin: 30px 0 23px 0;
+				padding-left: 25px;
+			}
+			.inputbox
+			{
+				margin-bottom: 20px;
+				margin-left: 6px;
+			}
+			.inputbox input
+			{
+				height: 25px;
+	/*			border-radius: 16px;*/
+	/*			outline: none;*/
+				background-color: #F8F3ED;
+				border-bottom: 1px solid brown;
+				border-left:  #F8F3ED;
+				border-right:  #F8F3ED;
+				border-top:  #F8F3ED;
+			}
+			.sbmt
+			{
+				margin-bottom: 20px;
+			}
+			.sbmt button
+			{
+				height: 33px;
+				width: 218px;
+				border-radius: 16px;
+				border: 1px solid brown;
+				background-color: brown;
+				color: bisque;
+			}
+			.inputbox a
+			{
+				font-size: 15px;
+				color: brown;
+				padding-left: 98px;
+				text-decoration: none;
+				margin-top: -50px;
+			}
+		
+
+}

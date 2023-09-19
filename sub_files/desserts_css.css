@@ -1,0 +1,865 @@
+.container
+{
+/*	padding-top: 80px;*/
+	height: 400px;
+    width: 1000px;
+	float: left;
+	margin-top: 50px;
+}
+.cont_img
+{
+    height: 400px;
+	width: 1000px;
+    filter: blur(8px);
+}
+.middle
+{
+	height: 400px;
+    width: 1000px;
+/*    padding-top: 79px;*/
+    background-color: black;
+    position: absolute;
+    opacity: 0.2;
+    z-index: 1;
+}
+.text
+{
+	height: 100px;
+	width: 1000px;
+	font-size: 34px;
+	color: white;
+	position: absolute;
+	padding-top: 125px;
+    z-index: 1;
+	text-align: center;
+}
+.horizo
+{
+	width: 306px;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    padding-top: 276px;
+    padding-left: 90px;
+}
+.horizo1
+{
+	width: 306px;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    padding-top: 276px;
+    padding-left: 598px;
+}
+.c_img
+{
+	width: 400px;
+    padding-top: 205px; 
+	padding-left: 402px;
+    position: absolute;
+    z-index: 2;
+    height: 200px;
+}
+.item1
+{
+	width: 1000px;
+	height: 666px;
+	background-color:#F7DBA6;
+	float: left;
+}
+.inquiry_now
+{
+	height: 101px;
+    width: 28px;
+    border-radius: 6px;
+    background-color: brown;
+    position: absolute;
+    z-index: 9999999;
+    top: 747px;
+}
+.inquiry_now a
+{
+	height: 24px;
+    width: 97px;
+    color: wheat;
+    text-decoration: none;
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: -37px;
+    margin-top: 48px;
+}
+.side_menu
+{
+	width: 294px;
+	height: 666px;
+	background-color:#F7DBA6;
+	float: left;
+}
+.s_tit
+{
+	height: 20px;
+    width: 250px;
+    font-size: 20px;
+    padding-left: 45px;
+    color: brown;
+    margin-top: 50px;
+}
+.custom
+{
+	width: 250px;
+	height: 155px;
+	background-color: #F8F3ED;
+	border: 0px;
+	color: brown;
+	margin-top: 21px;
+    margin-left: 40px;
+}
+.active
+{
+	background-color: brown;
+}
+.custom td
+{
+	border-bottom: thin solid;
+	padding: 5px;
+	padding-left: 22px;
+}
+.custom td a
+{
+	text-decoration: none;
+    color: brown;
+}
+.custom td:hover a
+{
+/*	text-decoration: none;*/
+     color:#F8F3ED;
+}
+.custom td:hover
+{
+	background-color: brown;
+}
+.pro_tit
+{
+	height: 45px;
+    width: 1000px;
+    font-size: 32px;
+    color: brown;
+    font-family: sans-serif;
+	float: left;
+	padding-top: 35px;
+	text-align: center;
+}
+.sqr
+{
+	width: 1000px;
+	height: 320px;
+	background-color: gray;
+	opacity: 0.3;
+}
+.items img
+{
+	opacity: 0.9;
+/*	position: relative;*/
+}
+.bread
+{
+	width: 700px;
+	height: 666px;	
+	float: right;
+/*	margin-left: 275px;*/
+}
+.bread1
+{
+	width: 200px;
+	height: 260px;
+	background-color:#F8F3ED;
+	margin-left:12.5px;
+	margin-top: 50px;
+	float: left;	
+}
+.bagels
+{
+	border: 1px solid black;
+    width: 190px;
+    height: 247px;
+    margin-top: 6px;
+    margin-left: 5px;
+    background-color: #F8F3ED;
+    float: left;
+	background-image: url("../images/cake5.jpg");
+}
+.bagels:hover .brd3
+{
+	 width: 190px;
+    height: 100px;
+    margin-top: 150px;
+    background-color: #F8F3ED;
+    float: left;
+}
+.brd3
+{
+    width: 190px;
+    height: 79px;
+    margin-top: 168px;
+    background-color:#F8F3ED;
+    float: left;
+}
+.sqr1
+{
+	height: 115px;
+    width: 115px;
+    margin-left: 50px;
+    margin-top: -59px;
+    transform: rotate(45deg);
+	background-color:#F8F3ED;
+	border: 1px solid brown;
+}
+.sqr2
+{
+	height: 105px;
+    width: 105px;
+    margin-left: 4px;
+    margin-top: 4px;
+    transform: rotate(0deg);
+	background-color:#F8F3ED;
+	border: 0.2px solid #D59042;
+}
+.sqr1 img
+{
+	padding-left: 2px;
+	padding-top: 9px;
+	transform: rotate(-45deg);
+}
+.br1
+{
+	height: 15px;
+    width: 190px;
+    margin-top: 8px;
+	text-align: center;
+	color: brown;
+	float: left;
+	font-size: 15px;  
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.br2
+{
+	width: 190px;
+	height: 32px;
+	float: left;
+	color: brown;
+	text-align: center;
+    padding-top: 18px;
+    border-radius: 15px;
+}
+.br3
+{
+	width: 50px;
+	height: 40px;
+	padding-top: 73px;
+    padding-left: 83px;
+    display: none;
+    font-size: 25px;
+}
+.br3 i
+{
+	color: brown;
+}
+.bagels:hover .br3
+{
+	width: 50px;
+	height: 40px;
+    display: block;
+}
+.buns:hover .br3
+{
+	width: 50px;
+	height: 40px;
+    display: block;
+}
+.biscuits:hover .br3
+{
+	width: 50px;
+	height: 40px;
+    display: block;
+}
+.rolls:hover .br3
+{
+	width: 50px;
+	height: 40px;
+    display: block;
+}
+.loaf_breads:hover .br3
+{
+	width: 50px;
+	height: 40px;
+    display: block;
+}
+.br2 button
+{
+    background-color: bisque;
+    height: 30px;
+    width: 103px;
+    border-radius: 9px;
+    font-size: 12px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: brown;
+	border: 1px solid #a55d2a;
+}
+.bread2
+{
+	width: 200px;
+	height: 260px;
+	background-color:#F8F3ED; 
+	margin-left: 25px;
+	margin-top: 50px;
+	float: left;
+	
+}
+.buns
+{
+	border: 1px solid black;
+    width: 190px;
+    height: 247px;
+    margin-top: 6px;
+    margin-left: 5px;
+    background-color: #F8F3ED;
+    float: left;
+	
+	background-image: url("../images/cup_cake2.jpg");
+}
+.buns:hover .brd3
+{
+	 width: 190px;
+    height: 100px;
+    margin-top: 150px;
+    background-color: #F8F3ED;
+    float: left;
+}
+.bread3
+{
+	width: 200px;
+	height: 260px;
+	background-color:#F8F3ED; 
+	margin-right: 12.5px;
+	margin-left: 25px;
+	margin-top: 50px;
+	float: left;
+}
+.rolls
+{
+	border: 1px solid black;
+    width: 190px;
+    height: 247px;
+    margin-top: 6px;
+    margin-left: 5px;
+    background-color: #F8F3ED;
+    float: left;
+	background-image: url("../images/cheese_cake2.png");
+}
+.rolls:hover .brd3
+{
+	 width: 190px;
+    height: 100px;
+    margin-top: 150px;
+    background-color: #F8F3ED;
+    float: left;
+}
+.bread4
+{
+	width: 200px;
+	height: 260px;
+	background-color:#F8F3ED; 
+	margin-left: 12.5px;
+	margin-top: 50px;
+	float: left;
+}
+.biscuits
+{
+	border: 1px solid black;
+    width: 190px;
+    height: 247px;
+    margin-top: 6px;
+    margin-left: 5px;
+    background-color: #F8F3ED;
+    float: left;
+	
+	background-image: url("../images/pies1.png");
+}
+.biscuits:hover .brd3
+{
+	 width: 190px;
+    height: 100px;
+    margin-top: 150px;
+    background-color: #F8F3ED;
+    float: left;
+}
+.bread5
+{
+	width: 200px;
+	height: 260px;
+	background-color:#F8F3ED; 
+	margin-left: 12.5px;
+	margin-top: 50px;
+	float: left;
+}
+.loaf_breads
+{
+	border: 1px solid black;
+    width: 190px;
+    height: 247px;
+    margin-top: 6px;
+    margin-left: 5px;
+    background-color: #F8F3ED;
+    float: left;	
+	background-image: url("../images/oatmeal_cookie1.png");
+}
+.loaf_breads:hover .brd3
+{
+	 width: 190px;
+    height: 100px;
+    margin-top: 150px;
+    background-color: #F8F3ED;
+    float: left;
+}
+
+
+
+
+
+
+@media screen and (max-width:480px)
+{
+.container
+{
+	height: 400px;
+    width: 480px;
+	float: none;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+.cont_img
+{
+    height: 400px;
+	width: 480px;
+    filter: blur(8px);
+}
+.middle
+{
+	height: 400px;
+    width: 480px;
+    background-color: black;
+    position: absolute;
+    opacity: 0.2;
+    z-index: 1;
+}
+.text
+{
+	height: 100px;
+	width: 480px;
+	font-size: 25px;
+	color: white;
+	position: absolute;
+	padding-top: 219px;
+    z-index: 1;
+	text-align: center;
+}
+.horizo
+{
+	width: 112px;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    padding-top: 298px;
+    padding-left: 38px;
+}
+.horizo1
+{
+	width: 112px;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    padding-top: 298px;
+    padding-left: 324px;
+}
+.c_img
+{
+	width: 210px;
+    padding-top: 245px; 
+	padding-left: 143px;
+    position: absolute;
+    z-index: 2;
+    height: 141px;
+}
+.c_img img
+{
+	width: 180px;
+	height: 140px;
+}
+
+.item1
+{
+	width: 480px;
+	height: 1500px;
+	background-color:#F7DBA6;
+	float: none;
+}
+.inquiry_now
+{
+	height: 101px;
+    width: 28px;
+    border-radius: 6px;
+    background-color: brown;
+    position: absolute;
+    z-index: 9999999;
+    top: 747px;
+}
+.inquiry_now a
+{
+	height: 24px;
+    width: 97px;
+    color: wheat;
+    text-decoration: none;
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: -37px;
+    margin-top: 48px;
+}
+.side_menu
+{
+	width: 294px;
+	height: 270px;
+	background-color:#F7DBA6;
+	float: left;
+}
+.s_tit
+{
+	height: 20px;
+    width: 250px;
+    font-size: 20px;
+    padding-left: 45px;
+    color: brown;
+    margin-top: 50px;
+}
+.custom
+{
+	width: 250px;
+	height: 155px;
+	background-color: #F8F3ED;
+	border: 0px;
+	color: brown;
+	margin-top: 21px;
+    margin-left: 40px;
+}
+.custom td
+{
+	border-bottom: thin solid;
+	padding: 5px;
+	padding-left: 22px;
+}
+.custom td a
+{
+	text-decoration: none;
+    color: brown;
+}
+.custom td:hover a
+{
+/*	text-decoration: none;*/
+     color:#F8F3ED;
+}
+.custom td:hover
+{
+	background-color: brown;
+}
+.pro_tit
+{
+	height: 45px;
+    width: 1000px;
+    font-size: 32px;
+    color: brown;
+    font-family: sans-serif;
+	float: left;
+	padding-top: 35px;
+	text-align: center;
+}
+.sqr
+{
+	width: 1000px;
+	height: 320px;
+	background-color: gray;
+	opacity: 0.3;
+}
+.items img
+{
+	opacity: 0.9;
+/*	position: relative;*/
+}
+	
+.bread
+{
+	width: 480px;
+	height: 1525px;	
+	float: none;
+/*	margin-left: 275px;*/
+	padding-top: 633px;
+}
+.bread1
+{
+	width: 200px;
+	height: 260px;
+	background-color:#F8F3ED;
+	margin-left:137.5px;
+	margin-top: -333px;
+	float: none;
+	padding-top: 0.2px;
+}
+.bagels
+{
+	border: 1px solid black;
+    width: 190px;
+    height: 247px;
+    margin-top: 6px;
+    margin-left: 5px;
+    background-color: #F8F3ED;
+    float: none;
+	background-image: url("../images/cake5.jpg");
+}
+.bagels:hover .brd3
+{
+	 width: 190px;
+    height: 100px;
+    margin-top: 150px;
+    background-color: #F8F3ED;
+    float: none;
+}
+.brd3
+{
+    width: 190px;
+    height: 79px;
+    margin-top: 168px;
+    background-color:#F8F3ED;
+    float: none;
+}
+.sqr1
+{
+	height: 115px;
+    width: 115px;
+    margin-left: 50px;
+    margin-top: -59px;
+    transform: rotate(45deg);
+	background-color:#F8F3ED;
+	border: 1px solid brown;
+}
+.sqr2
+{
+	height: 105px;
+    width: 105px;
+    margin-left: 4px;
+    margin-top: 4px;
+    transform: rotate(0deg);
+	background-color:#F8F3ED;
+	border: 0.2px solid #D59042;
+}
+.sqr1 img
+{
+	padding-left: 2px;
+	padding-top: 9px;
+	transform: rotate(-45deg);
+}
+.br1
+{
+	height: 15px;
+    width: 190px;
+    margin-top: 8px;
+	text-align: center;
+	color: brown;
+	float:none;
+	font-size: 15px;  
+	padding-top: 5px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.br2
+{
+	width: 190px;
+	height: 32px;
+	float: none;
+	color: brown;
+	text-align: center;
+    padding-top: 18px;
+    border-radius: 15px;
+}
+.br3
+{
+	width: 50px;
+	height: 40px;
+	padding-top: 0px;
+    padding-left: 83px;
+    display: none;
+    font-size: 25px;
+}
+.br3 i
+{
+	color: brown;
+}
+.bagels:hover .br3
+{
+	width: 50px;
+	height: 40px;
+    display: block;
+}
+.buns:hover .br3
+{
+	width: 50px;
+	height: 40px;
+    display: block;
+}
+.biscuits:hover .br3
+{
+	width: 50px;
+	height: 40px;
+    display: block;
+}
+.rolls:hover .br3
+{
+	width: 50px;
+	height: 40px;
+    display: block;
+}
+.loaf_breads:hover .br3
+{
+	width: 50px;
+	height: 40px;
+    display: block;
+}
+.br2 button
+{
+    background-color: bisque;
+    height: 30px;
+    width: 103px;
+    border-radius: 9px;
+    font-size: 12px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: brown;
+	border: 1px solid #a55d2a;
+}
+.bread2
+{
+	width: 200px;
+	height: 260px;
+	background-color:#F8F3ED; 
+	margin-left: 140px;
+	margin-top: 30px;
+	float: none;
+	padding-top: 0.2px;
+}
+.buns
+{
+	border: 1px solid black;
+    width: 190px;
+    height: 247px;
+    margin-top: 6px;
+    margin-left: 5px;
+    background-color: #F8F3ED;
+    float: none;
+	
+	background-image: url("../images/cup_cake2.jpg");
+}
+.buns:hover .brd3
+{
+	 width: 190px;
+    height: 100px;
+    margin-top: 150px;
+    background-color: #F8F3ED;
+    float: none;
+}
+.bread3
+{
+	width: 200px;
+	height: 260px;
+	background-color:#F8F3ED; 
+	margin-right: 12.5px;
+	margin-left: 140px;
+	margin-top: 30px;
+	float: none;
+	padding-top: 0.2px;
+}
+.rolls
+{
+	border: 1px solid black;
+    width: 190px;
+    height: 247px;
+    margin-top: 6px;
+    margin-left: 5px;
+    background-color: #F8F3ED;
+    float: none;
+	background-image: url("../images/cheese_cake2.png");
+}
+.rolls:hover .brd3
+{
+	 width: 190px;
+    height: 100px;
+    margin-top: 150px;
+    background-color: #F8F3ED;
+    float: none;
+}
+.bread4
+{
+	width: 200px;
+	height: 260px;
+	background-color:#F8F3ED; 
+	margin-left: 140px;
+	margin-top: 30px;
+	float: none;
+	padding-top: 0.2px;
+}
+.biscuits
+{
+	border: 1px solid black;
+    width: 190px;
+    height: 247px;
+    margin-top: 6px;
+    margin-left: 5px;
+    background-color: #F8F3ED;
+    float:none;
+	
+	background-image: url("../images/pies1.png");
+}
+.biscuits:hover .brd3
+{
+	 width: 190px;
+    height: 100px;
+    margin-top: 150px;
+    background-color: #F8F3ED;
+    float: none;
+}
+.bread5
+{
+	width: 200px;
+	height: 260px;
+	background-color:#F8F3ED; 
+	margin-left: 140px;
+	margin-top: 30px;
+	float: none;
+	padding-top: 0.2px;
+}
+.loaf_breads
+{
+	border: 1px solid black;
+    width: 190px;
+    height: 247px;
+    margin-top: 6px;
+    margin-left: 5px;
+    background-color: #F8F3ED;
+    float: none;	
+	background-image: url("../images/oatmeal_cookie1.png");
+}
+.loaf_breads:hover .brd3
+{
+	 width: 190px;
+    height: 100px;
+    margin-top: 150px;
+    background-color: #F8F3ED;
+    float: none;
+}
+	
+	
+}

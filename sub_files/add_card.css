@@ -1,0 +1,206 @@
+.item_cont
+		{
+			height: 600px;
+			width: 1000px;
+		}
+	.item_pic
+		{
+			height: 600px;
+			width: 500px;
+			float: left;
+			margin-top: -14px;
+		}
+		.item_pic img
+		{
+			height: 315px;
+			width: 408px;
+			padding-top: 5px;
+			background-color: white;
+			margin-left: 45px;
+			border: 1px solid brown;
+			margin-top: 192px;
+		}
+	.item_detail
+		{
+			height: 600px;
+			width: 500px;
+			float: right;
+			margin-top: -36px;
+		}
+	    .item_tit
+		{
+			padding-top: 217px;
+			height: 50px;
+			width: 500px;
+			font-size: 30px;
+			color: brown;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		}
+		.item_price
+		{
+			height: 50px;
+			width: 500px;
+			font-size: 20px;
+			padding-top: 15px;
+			color: brown;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		}
+		.item_select
+		{
+			height: 50px;
+			width: 500px;
+			font-size: 20px;
+			padding-top: 20px;
+			color: brown;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		}
+		.item_select form select
+		{
+			width: 70px;
+            height: 28px;
+		}
+		.item_quan
+		{
+			height: 50px;
+			width: 500px;
+		}
+		.item_quant
+		{
+			height: 110px;
+			width: 500px;
+			font-size: 20px;
+			padding-top: 20px;
+			color: brown;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		}
+		.item_quant button
+		{
+			font-size: 14px;
+			background-color: brown;
+			color: bisque;
+			height: 35px;
+			width: 130px;
+			margin-left: 163px;
+			border: none;
+		}
+		.item_quant button a
+		{
+			color: white;
+            text-decoration: none;
+		}
+		.item_quant form select
+		{
+			width: 70px;
+            height: 28px;
+		}
+
+
+
+@media screen and (max-width:480px)
+{
+	.item_cont
+		{
+			height: 1008px;
+			width: 480px;
+		}
+	.item_pic
+		{
+			height: 600px;
+			width: 400px;
+			float: none;
+			margin-top: -14px;
+	}
+	.item_detail
+		{
+			height: 600px;
+			width: 382px;
+			float: none;
+			margin-top: -36px;
+		}
+	    .item_tit
+		{
+			padding-top: 0px;
+			height: 50px;
+			width: 400px;
+			font-size: 30px;
+			color: brown;
+			padding-left: 53px;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		}
+	    hr
+	    {
+			  color: brown;
+			  margin-left: 45px;
+              width: 400px;
+         }
+		.item_price
+		{
+			height: 50px;
+			width: 400px;
+			font-size: 20px;
+			padding-top: 15px;
+			color: brown;
+			padding-left: 53px;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		}
+		.item_select
+		{
+			height: 50px;
+			width: 500px;
+			font-size: 20px;
+			padding-top: 20px;
+			color: brown;
+			padding-left: 53px;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		}
+		.item_select form select
+		{
+			width: 70px;
+            height: 28px;
+		}
+		.item_quan
+		{
+			height: 50px;
+			width: 500px;
+		}
+		.item_quant
+		{
+			height: 110px;
+			width: 500px;
+			font-size: 20px;
+			padding-top: 20px;
+			color: brown;
+			padding-left: 53px;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		}
+		.item_quant button
+		{
+			font-size: 14px;
+			background-color: brown;
+			color: bisque;
+			height: 35px;
+			width: 130px;
+			margin-left: 96px;
+			border: none;
+		}
+		.item_quant button a
+		{
+			color: white;
+            text-decoration: none;
+		}
+		.item_quant form select
+		{
+			width: 70px;
+            height: 28px;
+		}
+        hr.line
+	    {
+		      margin-top: 25px;
+			  margin-left: -8px;
+			  width: 400px;
+	    }
+	
+	
+	
+	
+}
